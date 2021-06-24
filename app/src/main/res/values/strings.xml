@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">MyAppPreferences</string>
+    <string name="fullname_text_view">FULLNAME</string>
+    <string name="fullname_hint_edit_text">Please enter your fullname</string>
+</resources>

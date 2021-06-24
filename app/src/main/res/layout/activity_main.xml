@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="20dp"
+    android:id="@+id/main_container">
+
+    <TextView
+        android:id="@+id/fullname_text_view"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fullname_text_view"
+        />
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/fullname_edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/fullname_hint_edit_text"
+        />
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/validation_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="REGISTER"
+        />
+
+</androidx.appcompat.widget.LinearLayoutCompat>
